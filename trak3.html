@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ExploreWorld - Travel With Us</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #f0f8ff;
+      color: #333;
+    }
+
+    header {
+      background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    nav {
+      background-color: #006994;
+      padding: 10px 20px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .destinations {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      padding: 15px;
+    }
+
+    footer {
+      background-color: #006994;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ExploreWorld</h1>
+    <p>Your Adventure Begins Here</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#destinations">Destinations</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="destinations">
+    <h2>Popular Destinations</h2>
+    <div class="destinations">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1549880338-65ddcdfd017b" alt="Paris">
+        <h3>Paris, France</h3>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1533681700639-52d4baccb6b9" alt="Bali">
+        <h3>Bali, Indonesia</h3>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1589391886642-66f37e6c5d91" alt="New York">
+        <h3>New York, USA</h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>ExploreWorld is your trusted partner for unforgettable travel experiences. We specialize in personalized trips that match your interests and budget.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@exploreworld.com<br>
+       Phone: +1 234 567 890</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ExploreWorld. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
