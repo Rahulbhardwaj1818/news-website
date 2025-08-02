@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>News Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        article {
+            background-color: white;
+            margin-bottom: 2rem;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        article h2 {
+            margin-top: 0;
+        }
+        article img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        article p {
+            line-height: 1.5;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 2rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            .container {
+                margin: 1rem;
+                padding: 0 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Daily News</h1>
+    </header>
+    <div class="container">
+        <article>
+            <h2>Global Markets Rally on Economic Optimism</h2>
+            <img src="https://via.placeholder.com/800x400?text=Market+Rally" alt="Market Rally" />
+            <p>Stock markets around the world surged today as investors reacted positively to new economic data suggesting a faster recovery from the recent downturn.</p>
+        </article>
+        <article>
+            <h2>New Advances in Renewable Energy Technology</h2>
+            <img src="https://via.placeholder.com/800x400?text=Renewable+Energy" alt="Renewable Energy" />
+            <p>Scientists have developed a new solar panel technology that promises to increase efficiency by 30%, potentially revolutionizing the renewable energy sector.</p>
+        </article>
+        <article>
+            <h2>Local Community Garden Initiative Blossoms</h2>
+            <img src="https://via.placeholder.com/800x400?text=Community+Garden" alt="Community Garden" />
+            <p>A community garden project in the downtown area has brought together residents to grow fresh produce and foster neighborhood connections.</p>
+        </article>
+    </div>
+    <footer>
+        &copy; 2024 Daily News. All rights reserved.
+    </footer>
+</body>
+</html>
